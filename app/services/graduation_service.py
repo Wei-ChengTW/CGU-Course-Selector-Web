@@ -13,7 +13,7 @@ from typing import Optional
 from app.config import BASE_DIR
 
 DEFAULT_LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://air.cgu.edu.tw/cgullmapi/v1")
-DEFAULT_LLM_MODEL = os.getenv("LLM_MODEL", "gpt-5.4-mini")
+DEFAULT_LLM_MODEL = os.getenv("LLM_MODEL", "gpt-5.6-luna")
 DEFAULT_RULES_DIR = BASE_DIR / "data" / "rules"
 
 STATUS_FILE = "graduation_status.json"
